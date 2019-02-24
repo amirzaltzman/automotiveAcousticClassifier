@@ -24,7 +24,7 @@ Here are the clsssess and their main porpuse:
 | Cat                  |  Forgotten animal\child in the car sound      |
 | Dog                  |  Forgotten animal\child in the car sound      |
 | Crying baby          |  Forgotten animal\child in the car sound      |
-| Car                  |  Driver behavior sound                        |
+| Car horn             |  Driver behavior sound                        |
 | Sneezing             |  Driver behavior sound                        |
 | Snoring              |  Caution\awareness sound                      | 
 | Car horn             |  Caution\awareness sound                      |
@@ -90,9 +90,6 @@ python label_image.py \
 
 4. Results
 
-Our test confusion matrix result - 
-
-
 Here is the labeling on car horn 1 sec sound recorded from Youtube - 
 
 The mel-spectrogram of the sound clip - 
@@ -100,17 +97,18 @@ The mel-spectrogram of the sound clip -
 
 Percision results -
 
-| Class                | Purpose      |
+| Class                | score        |
 |----------------------|--------------|
-| Cat                  |  71.9 %      |
-| Dog                  |  62.0 %      |
-| Crying baby          |  83.9 %      |
-| Car                  |  75.7 %      |
-| Sneezing             |  85.6 %      |
-| Snoring              |  65.9 %      |
-| Car horn             |  76.6 %      |
-| Siren                |  79.4 %      |
-| Footsteps            |  61.3 %      |
-| Rain                 |  85.2 %      |
-| Wind                 |  96.1 %      |
+| Cat                  |  0.00152      |
+| Dog                  |  0.00690      |
+| Crying baby          |  0.00003      |
+| Car horn             |  0.95367      |
+| Sneezing             |  0.00002      |
+| Snoring              |  0.00713      |
+| Car horn             |  0.95367      |
+| Siren                |  0.02721      |
+| Footsteps            |  0.00347      |
+| Rain                 |  0.00003      |
+| Wind                 |  0.00001      |
+
 
