@@ -92,9 +92,13 @@ python label_image.py \
 
 Our test confusion matrix result - 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
-Here is the labeling on car horn sound recorded from Youtube - 
+Here is the labeling on car horn 1 sec sound recorded from Youtube - 
+
+The mel-spectrogram of the sound clip - 
+![alt text](automotiveAcousticClassifier/images/car_horn_mel.jpg)
+
+Percision results -
 
 | Class                | Purpose      |
 |----------------------|--------------|
